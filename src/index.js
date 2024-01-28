@@ -1,13 +1,32 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
+import UseId from "./state-hook/UseId";
+// import UseState from './state-hook/UseState';
+// import UseReducer from "./state-hook/useReducer";
+// import UseEffect from "./state-hook/UseEffect";
+// import UseLayoutEffect from "./state-hook/UseLayoutEffect";
+// import UseContext from "./state-hook/UseContext";
+// import UseRef from "./state-hook/UseRef";
+// import UseMemo from "./state-hook/UseMemo";
+// import UseCallback from "./state-hook/UseCallback";
+// import UseDebugValue from "./state-hook/UseDebugValue";
+import CustomHook from "./state-hook/CustomHook";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <UseState /> */}
+    {/* <UseReducer /> */}
+    {/* <UseEffect/> */}
+    {/* <UseLayoutEffect/> */}
+    {/* <UseContext/> */}
+    {/* <UseRef/> */}
+    {/* <UseMemo /> */}
+    {/* <UseCallback /> */}
+    {/* <UseDebugValue /> */}
+    {/* <UseId/> */}
+    <CustomHook/>
   </React.StrictMode>
 );
 
